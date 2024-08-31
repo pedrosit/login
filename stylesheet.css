@@ -1,0 +1,58 @@
+html {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: rgb(0,103,87);
+    background: linear-gradient(0deg, rgba(0,103,87,1) 0%, rgba(70,83,173,0.7202478403470763) 100%);
+    
+}
+
+.container {
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background: rgb(175,173,173);
+    background: linear-gradient(0deg, rgba(175,173,173,1) 0%, rgba(236,236,236,1) 100%);
+    
+}
+
+.icone-user {
+    justify-content: center;
+    display: flex;
+    font-size: 70px;
+}
+
+i {
+    color: rgb(0,103,87);
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-top: 10px;
+    border: 1px solid gray;
+    outline: 0;
+    border-radius: 3px;
+}
+
+input[type="text"], input[type="password"] {
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    background-color: rgb(67, 91, 230);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 3px;
+}
