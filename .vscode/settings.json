@@ -1,3 +1,5 @@
+
+// esta configuracao define porta do servidor
 {
     "liveServer.settings.port": 5504
 }
